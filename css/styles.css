@@ -286,3 +286,71 @@ footer .icon__capcom:hover{
         display: none;
     }
 }
+
+@media (min-width: 380px) and (max-width: 575px){
+
+    header .logo__umbrela{
+        margin-top: 2%;
+    }
+
+    header .logo__umbrela img{
+        height: 70px;
+        width: 70px;
+        transition: ease 0.5s;
+    }
+
+    header nav ul{
+        margin: 14% 4% 5% 2%;
+    }
+
+    header nav ul li{
+        font-size: 15pt;
+    }
+
+    header .buy__bottom{
+        margin: 5% 0 0 0;
+    }
+
+    header .buy__bottom a{
+        font-size: 14pt;
+    }
+
+    
+    main section .img_main_box{
+        display: none;
+    } 
+
+    main section .text_box .anima{
+        font-size: 20pt;
+    }
+
+    main section .text_box p{
+        font-size: 18pt;
+        margin: 5% 10% 10% 10%;
+    }
+
+    footer{
+        height: 40vh;
+    }
+
+    footer #itens{
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    footer #itens .item__1, .item__2, .item__3, .item__4{
+        margin: 20px 0 20px 20px;
+    }
+
+    footer .right__direction{
+        margin: 50px;
+    }
+
+    main .img_main_saibaMais{
+        display: none;
+    }
+
+    main .img_main_saibaMais3{
+        display: none;
+    }
+}
